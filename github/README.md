@@ -4,7 +4,7 @@
 
 ## inbox
 
-_Streamlining github pages into your development process_
+__Streamlining github pages into your development process__
   * [option 1: using git tech only](https://gist.github.com/cobyism/4730490)
     * also includes a way to automate with a shell command(& gulp)
   * [option 2: using a third-party script](https://github.com/X1011/git-directory-deploy )
