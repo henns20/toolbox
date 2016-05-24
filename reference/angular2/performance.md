@@ -1,0 +1,3 @@
+- [Off-line Template Compilation](https://docs.google.com/document/d/11r8IuS4xDyhVSEBp7fDYo7aiLYsLEXKs4lPd36umUGM/edit)
+  -  By compiling in the build step things(filters, etc.) can be taken out that are not used by the developer which makes it faster(my understanding)
+  - reference: [Angular Air ngconf recap talks about it](https://youtu.be/SsnQmL9QU3s?t=1695)
