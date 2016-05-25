@@ -1,0 +1,40 @@
+//john papas repo hot-towel-angular-javascript
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "target": "ES5",
+    "sourceMap": true,
+    "listFiles": false
+  }
+}
+
+//Anders Hejlsberg Build 2016 (2 of a few)
+{
+    "compilerOptions": {
+        "module": "system",
+        "target": "es5",
+        "noImplicitAny": false,
+        "sourceMap": false,
+        "experimentalDecorators": true,
+        "moduleResolution": "node"
+    },
+    "files": [
+        "app/main.ts",
+        "typings/main.d.ts"
+    ]
+}
+
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": false,
+        "sourceMap": false,
+        "strictNullChecks": false //THIS IS REALLY POWERFUL(don't understand completely yet)
+    },
+    "exclude": [
+        "TypeScript-controlFlowTypes"
+    ]
+}

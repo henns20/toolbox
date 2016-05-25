@@ -19,6 +19,8 @@
 - **Using `shicks`**: alternative technique similar use case to `selrang`. Place your mouse pointer to any position above or below the cursor. Saying `shicks` will highlight everything in between.
 - **Shoff O Commando(atom)**: Keep the commando directory open/available during the day. Especially when ramping up so you can make additions on the fly.
 - **Favorite Command `creek`**: it never seems to fail. Knock on wood : -)
+- **Still slow after `restart dragon`**: restart voicecode, growl, dragon. Don't feel the need to reboot your computer.
+- **Dragtrain sparingly**: enough said : -)
 
 
 ## My Condition
