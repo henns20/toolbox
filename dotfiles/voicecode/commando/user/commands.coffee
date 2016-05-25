@@ -36,6 +36,7 @@ Commands.addMisspellings "skoosh", ["skittish"]
 Commands.addMisspellings 'laddie', ['latty', 'lottie']
 Commands.addMisspellings "swipe", ["swype"]
 Commands.addMisspellings "cram", ["graham"]
+Commands.addMisspellings "-", ["minas", "dash"]
 
 
 ###
@@ -103,6 +104,15 @@ Commands.create 'doosunk',
   action: ->
     @down()
     @string ';'
+
+###
+TODO:
+Commands.create 'keyshock',
+  description: 'combo shockey + shock'
+  tags: ['user', 'combo']
+  repeatable: true
+  action: ->
+###
 
 
 # basic angular javascript commands

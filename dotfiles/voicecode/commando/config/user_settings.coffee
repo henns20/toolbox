@@ -11,7 +11,7 @@ Settings.extend "applications",
   termy: "Terminal"
   terminal: "Terminal"
   slacker: "Slack"
-  monitor: "Activity Monitor"
+
 
 
 # REPETITION WORDS
@@ -48,7 +48,8 @@ Settings.extend "websites",
   "goober flowchart": "https://drive.google.com/drive/u/0/folders/0B1UtLF9ZEXTib2Ywenk5ckdRQW8"
   "google music": "https://play.google.com/music/listen?authuser&u=0#/now"
   "my drive": "https://drive.google.com/drive/u/0/my-drive"
-  "github": "https://github.com/henns20/"
+  "my calendar": "https://calendar.google.com/calendar/render?tab=oc#main_7"
+  "github": "https://github.com/yellownoggin/"
   fight: "http://mmafighting.com"
 
 
@@ -91,6 +92,7 @@ Settings.extend "shellCommands",
 
 # My Translations
 Settings.extend 'translations',
+  "angler": "angular"
   "divish": "div"
   "voice code": "voicecode"
   "nerb install": "npm install"
@@ -114,8 +116,6 @@ Settings.extend 'translations',
   "jazzy dump": "dump" # jasmine logging
   "jazzy don\'t": "dump"
   "ray": "array"
-  "to do": "TODO"
-  "2 do": "TODO"
   "andy": "end"
   "bill": "d"
   "jason": "json"
@@ -173,6 +173,8 @@ Settings.extend "abbreviations",
   revenue: 'rev'
   message: 'msg'
   config: "conf"
+  "to do": "TODO: "
+  "2 do": "TODO: "
 
 
 # passwords
