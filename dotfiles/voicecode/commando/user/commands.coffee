@@ -32,7 +32,7 @@ Commands.addMisspellings "trundle", ["trumbull"]
 Commands.addMisspellings "trex", ["treks", "trucks"] # Does not work w/ alphabet commands leaving it as a reminder
 Commands.addMisspellings "smash", ["smashed"]
 Commands.addMisspellings "rootscope", ["rudy scope"]
-Commands.addMisspellings "skoosh", ["skittish"]
+Commands.addMisspellings "skoosh", ["skittish", "scrish"]
 Commands.addMisspellings 'laddie', ['latty', 'lottie']
 Commands.addMisspellings "swipe", ["swype"]
 Commands.addMisspellings "cram", ["graham"]
@@ -104,14 +104,28 @@ Commands.create 'doosunk',
   action: ->
     @down()
     @string ';'
+# NOTE: originally tested rannock(not added as a word yet) dragon kept writing renickusing this for now
+Commands.create 'renick':
+  description: 'press escape then shock intelliJ auto complete workaround'
+  tags: ['user']
+  action: ->
+    @key 'escape'
+    @key 'enter'
+# NOTE: originally tested keyshock(not added as a word yet) dragon kept writing keisha using this for now
+Commands.create 'keisha':
+  description: 'shock, shockey combo'
+  tags: ['user']
+  action: ->
+    @key 'enter'
+    @key 'enter'
+    @up()
 
 ###
 TODO:
-Commands.create 'keyshock',
-  description: 'combo shockey + shock'
-  tags: ['user', 'combo']
-  repeatable: true
-  action: ->
+word candidates/success rate test
+shock it (90%)
+keyshock ?
+rannock ?
 ###
 
 
