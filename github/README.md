@@ -10,3 +10,10 @@ __Streamlining github pages into your development process__
   * [option 2: using a third-party script](https://github.com/X1011/git-directory-deploy )
     * advantages: do not have to maintain build/dist in your master branch
     * disadvantages: uses tech beyond git(maintainability)
+    *
+
+__My process regarding option 1__
+
+- git ghp-deploy build
+- git shell command location: /usr/local/bin
+    - file: git-ghp-deploy
