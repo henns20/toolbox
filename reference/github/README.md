@@ -4,11 +4,6 @@
 
 ## inbox
 
-###  ??
-- Underscore or dash in Git branch names?
-    * quasi-pole from a san francisco engineer*: https://twitter.com/kvnsmth/status/409026393755090945
-    * dash seem to be the overwhelming choice
-
 __Streamlining github pages into your development process__
   * [option 1: using git tech only](https://gist.github.com/cobyism/4730490)
     * also includes a way to automate with a shell command(& gulp)
@@ -22,14 +17,3 @@ __My process regarding option 1__
 - git ghp-deploy build
 - git shell command location: /usr/local/bin
     - file: git-ghp-deploy
-
-
-## Scenarios
-
-### Working with the future branch(branch or another branch)
-
-- Keeping up to date with master
-    * http://stackoverflow.com/questions/19758915/keeping-a-branch-up-to-date-with-master
-    * http://stackoverflow.com/questions/5691557/how-can-i-keep-my-branch-up-to-date-with-master-with-git
-    * When everything is local(in development & master local is changing)
-        *   
