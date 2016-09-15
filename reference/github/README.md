@@ -1,3 +1,10 @@
+1. download a sub directory from github
+    - not easy out of the box - workarounds
+    - someone made this tool
+    r: https://minhaskamal.github.io/DownGit/#/home
+    - here is the stackoverflow discussion
+    r: http://stackoverflow.com/questions/7106012/download-a-single-folder-or-directory-from-a-github-repo/18324458#18324458
+
 ## github & git toolbox
   * tools, references, etc. to help streamline working with github & git
 
