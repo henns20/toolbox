@@ -16,5 +16,6 @@ Installation:
 * bower install
 * gulp serve-dev
 
-TODO:
+Downloading|Cloning on this directory:
 [cloning only this directory](http://askubuntu.com/questions/460885/how-to-clone-git-repository-only-some-directories)
+-[using svn](https://www.youtube.com/watch?v=1WCZU1hvEJg)
